@@ -47,13 +47,14 @@ git clone
 You need to get the correct coordinates for your screen setup.
 
 #### For Chat Area Coordinates:
-1. Run the coordinate helper script:
-```python
-# get_coordinates.py
+1. Run the coordinate helper script.
+
 
 ### For Input Box Coordinates:
 Run the input box coordinate helper:
-```python
+```bash
+python chat-msg-box-coordinates.py
+```
 
 ### Step 3: Update Coordinates in Code
 1. Update `select_region()` function with your chat area coordinates
